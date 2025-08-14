@@ -24,7 +24,7 @@ pdf_path = "text.pdf"  # Add file path here
 text = extract_text_from_pdf(pdf_path)
 
 
-# text_to_audio(text)
+# text_to_audio(text)  # Uncomment to play audio directly
 
 def save_audio(text, filename="output.mp3"):
     engine = pyttsx3.init()
